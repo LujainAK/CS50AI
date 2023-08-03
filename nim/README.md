@@ -5,7 +5,7 @@ The Q-Learning formula used:
 
     `Q(s, a) <- Q(s, a) + alpha * (new value estimate - old value estimate)`
 
-Where `alpha` is the learning rate, `new value estimate` is the sum of current and future rewards recieved, and `old value estimate` is the current `Q(s, a)`.
+Where `alpha` is the learning rate, `new value estimate` is the sum of current and future rewards received, and `old value estimate` is the current `Q(s, a)`.
 
 All the background and specification details are on the exercise's page [HERE](https://cs50.harvard.edu/ai/2020/projects/4/nim/). 
 
